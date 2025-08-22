@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background: url("https://c1.wallpaperflare.com/preview/170/570/437/bhagavad-gita-ancient-scriptures-john-rylands-library-book.jpg") no-repeat center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.quote-box {
+  background: rgba(0,0,0,0.6);
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 800px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+  animation: fadeIn 1s ease-in-out;
+}
+
+.sanskrit {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #f9f871;
+  margin-bottom: 15px;
+}
+
+.translation {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.meaning {
+  font-size: 1rem;
+  font-style: italic;
+  color: #ffd6d6;
+}
+
+button {
+  margin-top: 25px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #f9f871;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #ffcc00;
+  transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+
+.startbtn {
+  margin-top: 25px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #f9f871;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.startbtn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(170, 100, 100, 0.4);
+}
+
+
